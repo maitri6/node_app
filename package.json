@@ -5,7 +5,8 @@
     "author": "First Last <first.last@example.com>",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+      "start": "node server.js",
+      "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
     },
     "dependencies": {
       "express": "^4.16.1"
